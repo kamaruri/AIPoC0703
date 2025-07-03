@@ -8,6 +8,7 @@
 
 ## フォルダ構成
 
+<pre><code>
 .
 ├── ai_log_report_v1.py          # メイン処理スクリプト
 ├── sample_logs.csv              # 入力用ログファイル（仮ログ）
@@ -15,7 +16,7 @@
 ├── security_log_report.pdf      # PDF形式レポート（可視化用）
 ├── DejaVuSans.ttf               # 日本語PDF対応フォント
 └── README.md                    # このファイル
-
+</code></pre>
 ---
 
 ## 使用ライブラリ
@@ -29,7 +30,7 @@
 
 ```bash
 pip install openai pandas fpdf python-dotenv
-
+```
 
 ## 実行方法
 .env ファイルを作成し、以下を記載：
